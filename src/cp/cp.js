@@ -1,4 +1,9 @@
+// import './files/script.js';
+import os from 'os';
+
 const spawnChildProcess = async (args) => {
+
+    console.log(os.cpus().length);
     // Write your code here
 };
 
